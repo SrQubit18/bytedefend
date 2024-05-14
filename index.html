@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es" onmousemove="mouse_position(event)">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://pyscript.net/releases/2024.5.1/core.js"></script>
+</head>
+<header>
+    <div id="logo">
+        <img src="logo_s.png" alt="" height="100%">
+        <h1 class="main_title">ByteDefend</h1>
+    </div>
+    <input class="burger" type="checkbox">
+    <img alt="" class="burger_img">
+    <nav class="nav_menu">
+        <a href="#panel1">inicio</a>
+        <a href="#panel2">objetivo</a>
+        <a href="#panel3">vision</a>
+        <a href="#panel4">valores</a>
+        <a href="#panel5">ubicacion</a>
+        <a href="#panel6">nosotros</a>
+    </nav>
+</header>
+<body>
+    <div>
+        <div class="panel" id="panel1">
+            <div class="text_panel" >
+                <h1>inicio</h1>
+                <p>Bienvenidos a ByteDefend. <br>
+                Nos dedicamos a brindar servicios especializados para 
+                proteger a los usuarios y sus datos en el mundo digital. 
+                Nuestro equipo de expertos trabaja incansablemente para 
+                garantizar la seguridad de tus sistemas, redes y 
+                dispositivos. Desde la prevención de ataques hasta la 
+                detección y respuesta ante incidentes, 
+                estamos comprometidos con tu tranquilidad en línea. 
+                ¡Confía en nosotros para mantener tus datos a salvo 
+                en el vasto ciberespacio!</p>
+            </div>
+            <img src="logo_s.png" alt="" class="page_img" >
+        </div>
+
+        <div class="panel" id="panel2">
+            <img src="lock.png" alt="" class="page_img" data-aos="rotate->" data-aos-duration="1000" data-aos-anchor-placement="center-center">
+            <div class="text_panel" data-aos="fade-left" data-aos-duration="1000" data-aos-anchor-placement="center-center">
+                <h1>objetivo</h1>
+                <p>Nuestro objetivo es proteger los datos y sistemas de nuestros
+                clientes contra amenazas cibernéticas. Ofrecemos soluciones
+                personalizadas y avanzadas, garantizando la seguridad digital a
+                través de tecnologías innovadoras y un equipo experto en
+                ciberseguridad. Nos comprometemos a fortalecer la seguridad a
+                largo plazo mediante la educación y la adaptación constante a
+                los desafíos del entorno digital.</p>
+            </div>
+        </div>
+
+        <div class="panel" id="panel3">
+            <div class="text_panel" data-aos="fade-right" data-aos-duration="1000" data-aos-anchor-placement="center-center">
+                <h1>vision</h1>
+                <p>Nuestra visión es liderar el camino hacia un mundo digital más
+                    seguro y confiable. Nos esforzamos por establecer estándares de
+                    excelencia en seguridad informática, brindando soluciones
+                    innovadoras y un servicio excepcional. Nos comprometemos a
+                    ser el socio de confianza de nuestros clientes, adaptándonos
+                    constantemente para mantenernos a la vanguardia de la
+                    ciberseguridad.</p>
+            </div>
+            <img src="vision.png" alt="" class="page_img" data-aos="rotate-<" data-aos-duration="1000" data-aos-anchor-placement="center-center">
+        </div>  
+        
+        <div class="panel" id="panel4">
+            <h1>valores</h1>
+            <div>
+                <div class="slider">
+                        <div class="card" id="card_1"  data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-center" data-aos-delay="0">
+                            <div>
+                                <h1>Integridad</h1>
+                                <p>Actuamos con honestidad y transparencia en todas nuestras acciones.</p>
+                            </div>
+                        </div>
+
+                        <div class="card" id="card_2"  data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-center" data-aos-delay="250">
+                            <div>
+                                <h1>Excelencia</h1>
+                                <p>Nos esforzamos por alcanzar la excelencia en todo lo que hacemos.</p>
+                            </div>
+                        </div>
+
+                        <div class="card" id="card_3"  data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-center" data-aos-delay="0">
+                            <div>
+                                <h1>Innovación</h1>
+                                <p>Buscamos constantemente soluciones nuevas y eficaces.</p>
+                            </div>
+                        </div>
+
+                        <div class="card" id="card_4"  data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-center" data-aos-delay="250">
+                            <div>
+                                <h1>Responsabilidad</h1>
+                                <p>Asumimos la responsabilidad de nuestras acciones y cumplimos nuestros compromisos.</p>
+                            </div>
+                        </div>
+
+                        <div class="card" id="card_5"  data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-center" data-aos-delay="0">
+                            <div>
+                                <h1>Colaboración</h1>
+                                <p>Trabajamos en equipo y valoramos la diversidad de ideas.</p>
+                            </div>
+                        </div>
+
+                        <div class="card" id="card_6"  data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-center" data-aos-delay="250">
+                            <div>
+                                <h1>Empoderamiento</h1>
+                                <p>Promovemos el crecimiento personal y profesional de nuestros empleados.</p>
+                            </div>
+                        </div>
+
+                        <div class="card" id="card_7"  data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-center" data-aos-delay="0">
+                            <div>
+                                <h1>Adaptabilidad</h1>
+                                <p>Nos adaptamos rápidamente a los cambios del entorno.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card" id="card_8"  data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-center" data-aos-delay="250">
+                            <div>
+                                <h1>Respeto</h1>
+                                <p>Valoramos y respetamos la diversidad de culturas y opiniones.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel" id="panel5">
+            <div class="text_panel" data-aos="fade-right" data-aos-duration="1000" data-aos-anchor-placement="center-center">
+                <h1>Ubicacion</h1>
+                <p>Nuestra empresa se ubica en la calle 269 Av. Velez Sarsfiel en el
+                    segundo piso del edificio, donde
+                    Puedes asistir para una ayuda más inmediata o para cualquier
+                    consulta</p>
+                <form action="https://maps.app.goo.gl/STWcYSRXHckmjVVaA">
+                    <input type="submit" value="open maps" class="btn">
+                </form>
+            </div>
+            <iframe 
+                class="map" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.851440990788!2d-64.1879763511533!3d-31.41821889542856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a283f4ed448b%3A0x6af26b2afae3c1e2!2sAv.%20V%C3%A9lez%20Sarsfield%20269%2C%20X5000JJC%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1715405845343!5m2!1ses-419!2sar" 
+                width="400" height="400" 
+                loading="lazy" 
+                
+                data-aos="fade-left" 
+                data-aos-duration="1000" 
+                data-aos-anchor-placement="center-center"
+
+                onmousemove="mouse_position(event)"
+            ></iframe>
+        </div>
+        
+        <div class="panel" id="panel6">
+            <img src="nosotros.png" alt="" class="page_img" data-aos="rotate-<" data-aos-duration="1000" data-aos-anchor-placement="center-center">
+            <div class="text_panel" data-aos="fade-right" data-aos-duration="1000" data-aos-anchor-placement="center-center">
+                <h1>Nosotros</h1>
+                <p>Somos una empresa multinacional líder en el campo de la seguridad
+                    informática, con presencia en diversos países y una red global de expertos
+                    en ciberseguridad. Nuestra sede principal se encuentra en Argentina, pero
+                    contamos con oficinas y sucursales en Estados Unidos, México, Brasil,
+                    España y Alemania.. Nos especializamos en ofrecer soluciones de
+                    seguridad personalizadas para empresas de todos los tamaños, así como
+                    para clientes individuales que buscan proteger sus datos y sistemas.</p>
+            </div>
+        </div>
+        <div class="panel" id="paneld">
+            <div class="text_panel">
+                <h1>informacion de depuracion</h1>
+                <div id='info'></div>
+            </div>
+        </div>
+
+        <!--scripts-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <div id="cursor1"></div>
+    <div id="cursor2"></div>
+    <div id="cursor3"></div>
+
+    <script type="text/javascript">
+        var info = document.getElementById('info');
+        var scroll = 0
+        var debug_panel = document.getElementById('paneld')
+
+        function debug_mode(mode){
+            if (mode == false){
+                debug_panel.style.display = "none"
+            }
+            if (mode == true){
+                debug_panel.style.display = "flex"
+            }
+        }
+        function mouse_position(p){
+            info.innerHTML = 'Position X : ' + p.clientX + '<br />Position Y : ' + p.clientY + "<br>scroll";
+            
+            var cursor1 = document.getElementById('cursor1');
+            cursor1.style.left = String("calc(" +p.clientX + "px - 100vh)");
+            cursor1.style.top = String("calc(" +p.clientY + "px - 100vh)");
+            
+            var cursor2 = document.getElementById('cursor2');
+            cursor2.style.left = String("calc(" +p.clientX + "px - 12.5vh)");
+            cursor2.style.top = String("calc(" +p.clientY + "px - 12.5vh)");
+            
+        }
+    </script>
+</body>
+</html>
